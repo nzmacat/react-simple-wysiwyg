@@ -4,7 +4,6 @@ import { getSelectedNode } from '../utils';
 import { ContentEditable, ContentEditableProps } from './ContentEditable';
 import { useEditorState } from './EditorContext';
 import { HtmlEditor } from './HtmlEditor';
-import '../styles.css';
 
 export function Editor({ children, onSelect, ...rest }: EditorProps) {
   const editorState = useEditorState();
